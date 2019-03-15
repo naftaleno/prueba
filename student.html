@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="student.css">
+    <title>ESTUDIANTE</title>
+</head>
+<body class="container" >
+
+
+
+    <H1>ESTUDIANTE</H1>
+
+    <img src="logo.png" width="600px" height="200px">
+    <div class="container">
+    <form action="student.php" method="post" name="Estudiante">
+
+        <div class="row">
+            <div class="col-sm">Nombre:<input type="text" name="Nombre" value=""/></div>
+            <div class="col-sm">Apellido:<input type="text" name="Apellido" value=""/></div>
+            <div class="col-sm">Codigo:<input type="text" name="Codigo" value=""/></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm">Edad:<input type="text" name="Edad" value=""/></div>
+            <div class="col-sm">Genero: <input type="checkbox" name="Genero" value="masculino">Masculino</input>
+            <input type="checkbox" name="Genero" value="femenino">Femenino</div>
+            <div class="col-sm">RH:<input type="text" name="RH" value=""/></div>
+        </div>    
+        <br>
+        <div class="row">
+            <div class="col-sm">Carrera:<input type="text" name="Carrera" value=""/></div>
+            <div class="col-sm">Semestre:<input type="text" name="Semestre" value=""/></div>
+            <div class="col-sm">Asignaturas:<input type="text" name="Asignaturas" value=""/></div>
+        </div>    
+        <br>
+        <div class="row">Estrato:
+           <div class="col-sm"> <select name="Estrato">
+                <option>Uno</option>
+                <option>Dos</option>
+                <option>Tres</option>
+                <option>Cuatro</option>
+            </select> </div>
+            <div class="col-sm">EPS:<input type="text" name="EPS" value=""/></div>
+            <div class="col-sm">Estado Civil:<select name=EstadoCivil>
+                <option>Soltero</option>
+                <option>Casado</option>
+                <option>Viudo</option>
+            </select></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm">Email:<input type="email" name="Email" value=""/></div>
+            <div class="col-sm">Telefono:<input type="text" name="Telefono" value=""/></div>
+            <div class="col-sm">Direccion:<input type="text" name="Direccion" value=""/></div>
+        </div>  
+
+         
+        <div class="col-center">
+                    <div class="btn"><input type="submit" value="Enviar"></div>
+                </div>
+        
+    </form>
+
+    
+    <!--
+        Formulario Estudiante.
+        TITULO - NOMBRE - APELLIDO - CODIGO - 
+        GENERO - EDAD - RH - CARRERA - SEMESTRE - ASIGNATURAS 
+        ESTRATO - EPS - ESTADO CIVIL - E MAIL - TELEFONO - DIRECCION
+
+
+    -->
+</body>
+</html>
